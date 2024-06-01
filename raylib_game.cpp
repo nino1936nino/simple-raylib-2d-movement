@@ -1,6 +1,6 @@
 
 #include "raylib.h"
-#include <iostream>
+
 
 //------------------------------------------------------------------------------------
 // Program main entry point
@@ -34,17 +34,13 @@ int main(void)
 
         
 
-        
+        DrawFPS( 70, 20);
 
-        
-        if (IsKeyDown(KEY_W)) {
-            posY -= 10;  
-        }
+
         if (IsKeyDown(KEY_S)) {
             posY += 10;  
         }
-        if (IsKeyDown(KEY_A)) {
-            posX -= 10;  
+
         }
         if (IsKeyDown(KEY_D)) {
             posX += 10;  
